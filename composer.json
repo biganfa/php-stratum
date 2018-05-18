@@ -1,5 +1,5 @@
 {
-  "name": "setbased/php-stratum",
+  "name": "biganfa/php-stratum",
   "description": "A stored procedure and function loader, wrapper generator for MySQL in PHP.",
   "keywords": [
     "MySQL",
@@ -36,10 +36,7 @@
   "autoload-dev": {
     "psr-4": {
       "SetBased\\Stratum\\Test\\": "test/"
-    },
-    "classmap": [
-      "test/MySql/C.php"
-    ]
+    }
   },
   "config": {
     "bin-dir": "bin/"
